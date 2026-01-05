@@ -1,4 +1,4 @@
-baseURL = 'https://blog.kelvin.ma/'
+baseURL = 'https://blog.kelvinhanma.com/'
 languageCode = 'en-us'
 title = "Kelvin's Blog"
 theme = 'hugo-coder'

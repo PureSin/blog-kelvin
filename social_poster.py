@@ -78,7 +78,7 @@ class BlogPost:
                             
                     # Generate URL from filename
                     slug = self.file_path.stem
-                    self.url = f"https://blog.kelvin.ma/posts/{slug}/"
+                    self.url = f"https://blog.kelvinhanma.com/posts/{slug}/"
                     
                 except Exception as e:
                     logger.error(f"Error parsing frontmatter for {self.file_path}: {e}")

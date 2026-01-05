@@ -1,4 +1,4 @@
-# My Blog: blog.kelvin.ma
+# My Blog: blog.kelvinhanma.com
 
 Personal blog built with Hugo, focusing on tech learnings, OMSCS course summaries, book notes, and AI/finance/tech insights.
 

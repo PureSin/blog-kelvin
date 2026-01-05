@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a personal blog built with Hugo static site generator, hosted at https://blog.kelvin.ma/. The blog uses the hugo-coder theme and is designed for a friendly, casual writing tone focused on tech learnings, OMSCS course summaries, book notes, and AI/finance/tech insights.
+This is a personal blog built with Hugo static site generator, hosted at https://blog.kelvinhanma.com/. The blog uses the hugo-coder theme and is designed for a friendly, casual writing tone focused on tech learnings, OMSCS course summaries, book notes, and AI/finance/tech insights.
 
 ## Development Commands
 
@@ -58,7 +58,7 @@ hugo
 
 ### Site Configuration
 - **Config File**: `hugo.toml` (TOML format)
-- **Base URL**: https://blog.kelvin.ma/
+- **Base URL**: https://blog.kelvinhanma.com/
 - **Theme**: hugo-coder
 - **Pagination**: 20 posts per page
 - **Taxonomies**: categories, tags, series
