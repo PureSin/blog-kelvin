@@ -1,0 +1,26 @@
+{
+  "twitter": {
+    "api_key": "YOUR_TWITTER_API_KEY",
+    "api_secret": "YOUR_TWITTER_API_SECRET", 
+    "access_token": "YOUR_TWITTER_ACCESS_TOKEN",
+    "access_token_secret": "YOUR_TWITTER_ACCESS_TOKEN_SECRET"
+  },
+  "bluesky": {
+    "username": "puresin14.bsky.social",
+    "password": "YOUR_BLUESKY_APP_PASSWORD"
+  },
+  "linkedin": {
+    "access_token": "YOUR_LINKEDIN_ACCESS_TOKEN"
+  },
+  "templates": {
+    "twitter": {
+      "format": "📝 New blog post: {title}\n\n{description}\n\n{short_url}\n\n{hashtags}"
+    },
+    "bluesky": {
+      "format": "📝 New blog post: {title}\n\n{description}\n\n{short_url}\n\n{hashtags}"
+    },
+    "linkedin": {
+      "format": "📝 New blog post: {title}\n\n{description}\n\nRead more: {short_url}\n\n{hashtags}\n\n#TechBlog #SoftwareEngineering #AI"
+    }
+  }
+}

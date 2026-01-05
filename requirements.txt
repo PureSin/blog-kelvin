@@ -1,0 +1,6 @@
+# Social Media Posting Dependencies
+tweepy>=4.14.0      # Twitter API v2
+atproto>=0.0.39     # Bluesky/AT Protocol
+requests>=2.31.0    # LinkedIn API and general HTTP
+toml>=0.10.2        # TOML frontmatter parsing
+PyYAML>=6.0         # YAML support (if needed)
