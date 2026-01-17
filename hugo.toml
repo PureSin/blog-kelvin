@@ -14,6 +14,13 @@ pagerSize = 20
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
+  # Favicon configuration
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon-16x16.png"
+
+  # Custom CSS
+  customCSS = ["css/custom.css"]
+
 
 # Menu links
 [[menu.main]]
