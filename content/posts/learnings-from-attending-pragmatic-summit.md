@@ -1,11 +1,11 @@
 +++ 
-draft = true
+draft = false
 date = 2026-02-12T21:55:57-08:00
 title = "Learnings from attending Pragmatic Summit"
 description = ""
 slug = ""
 authors = []
-tags = []
+tags = ["AI", "Software Engineering", "Conference", "Developer Tools", "Mobile Development"]
 categories = []
 externalLink = ""
 series = []
