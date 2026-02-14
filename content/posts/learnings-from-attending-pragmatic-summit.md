@@ -49,7 +49,7 @@ My day to day now looks something like:
 
 This means I'm producing more diffs, which means the bottleneck moves from writing code to reviewing, deploying, evaluating product changes. AI doesn't help as much with code review, and that is the next step for AI tools to accelerate software development. (Though many at the summit are pretty excited about [Graphite](https://graphite.com/) for AI assisted code reviews.)
 
-![AI Cycle](/pragmatic_summit/ai_cycle.png)
+![AI Cycle](/pragmatic_summit/ai_cycle.webp)
 
 
 ## #2: Software team practices need to adapt
