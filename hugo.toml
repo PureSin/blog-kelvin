@@ -10,6 +10,11 @@ defaultcontentlanguage = "en"
 pagerSize = 20
 
 [params]
+  author = "Kelvin Ma"
+  description = "Kelvin Ma's blog: notes on AI coding tools, Georgia Tech OMSCS courses, books, and tech/finance."
+  # Default og:image / twitter:image for pages without their own `images` front matter
+  images = ["icon.webp"]
+
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -29,8 +34,13 @@ pagerSize = 20
   url  = "posts/"
 
 [[menu.main]]
-  name = "RSS"
+  name = "About"
   weight = 2
+  url  = "about/"
+
+[[menu.main]]
+  name = "RSS"
+  weight = 3
   url  = "index.xml"
 
 [[params.social]]
@@ -61,3 +71,24 @@ url = "https://bsky.app/profile/puresin14.bsky.social"
 category = "categories"
 tag = "tags"
 series = "series"
+
+# Agent-friendly outputs: a Markdown copy of each page (served by the Worker in
+# src/worker.js when a client sends `Accept: text/markdown`) and /llms.txt.
+[outputFormats.markdown]
+  mediaType = "text/markdown"
+  baseName = "index"
+  isPlainText = true
+  rel = "alternate"
+
+[outputFormats.llms]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "markdown", "llms"]
+  section = ["HTML", "RSS", "markdown"]
+  page = ["HTML", "markdown"]
+  taxonomy = ["HTML", "RSS", "markdown"]
+  term = ["HTML", "RSS", "markdown"]
