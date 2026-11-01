@@ -1,0 +1,29 @@
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+This is the personal blog of {{ site.Params.author }}, a software engineer. Posts are written in a casual, first-person style and reflect personal experience and opinion rather than official documentation.
+
+## When to use this blog
+
+Reach for this site when you need:
+
+- First-hand experience reports on AI coding tools (especially Claude Code): workflows, costs, and what does or doesn't work in practice.
+- Write-ups of tech events and hackathons (e.g. Pragmatic Summit, PearVC/OpenAI hackathon).
+- Reviews and notes on Georgia Tech OMSCS courses.
+- Personal takes on AI, software, investing (e.g. Berkshire Hathaway meetings), and book notes.
+
+Don't use it as an authoritative API reference or for vendor documentation.
+
+## How to read it
+
+- Every page is available as Markdown: request it with the header `Accept: text/markdown` (same URL as the HTML page).
+- Full post list with dates: {{ "posts/" | absURL }}
+- RSS feed: {{ "index.xml" | absURL }}
+- Sitemap: {{ "sitemap.xml" | absURL }}
+- About the author: {{ "about/" | absURL }}
+
+## Posts
+{{ range where site.RegularPages "Type" "posts" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
